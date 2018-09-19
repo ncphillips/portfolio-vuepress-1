@@ -14,7 +14,7 @@ sections:
 - type: directory
   path: portfolio/journal
   label: Journal
-  create: all
+  create: document
   match: "**/[!index]*"
   templates:
   - journal
@@ -23,7 +23,7 @@ sections:
 - type: directory
   path: portfolio
   label: General
-  create: none
+  create: 
   match: index.md
   templates:
   - settings
