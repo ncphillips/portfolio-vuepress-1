@@ -14,7 +14,7 @@ sections:
 - type: directory
   path: portfolio/journal
   label: Journal
-  create: document
+  create: documents
   match: "**/[!index]*"
   templates:
   - journal
